@@ -1,0 +1,57 @@
+/*
+ * Copyright 2016, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "com.example.androidthings.simplepio"
+        minSdkVersion 27
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        sourceSets {
+            main.java.srcDirs += 'src/main/kotlin'
+        }
+    }
+    buildTypes {
+        debug {
+            adbOptions {
+                installOptions "-g"
+            }
+        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+// [START peripheral-gpio-output-java, peripheral-gpio-input-java, peripheral-pwm-java]
+// [START peripheral-gpio-output-kotlin, peripheral-gpio-input-kotlin, peripheral-pwm-kotlin]
+dependencies {
+    compileOnly 'com.google.android.things:androidthings:1.0'
+    // [START_EXCLUDE]
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // [END_EXCLUDE]
+}
+// [END peripheral-gpio-output-java, peripheral-gpio-input-java, peripheral-pwm-java]
+// [END peripheral-gpio-output-kotlin, peripheral-gpio-input-kotlin, peripheral-pwm-kotlin]

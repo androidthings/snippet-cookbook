@@ -1,0 +1,50 @@
+{
+  "peripheral-gpio-input-java": {
+    "title": "Open GPIO input (Java)",
+    "description": "Open a GPIO pin and configure it as an input",
+    "category": "Peripheral I/O",
+    "samples": [
+      "https://github.com/androidthings/sample-simplepio/tree/master/java"
+    ]
+  },
+  "peripheral-gpio-output-java": {
+    "title": "Open GPIO output (Java)",
+    "description": "Open a GPIO pin and configure it as an output",
+    "category": "Peripheral I/O",
+    "samples": [
+      "http://github.com/androidthings/sample-simplepio/tree/master/java"
+    ]
+  },
+  "peripheral-pwm-java": {
+    "title": "Open PWM (Java)",
+    "description": "Open a PWM pin and configure it",
+    "category": "Peripheral I/O",
+    "samples": [
+      "http://github.com/androidthings/sample-simplepio/tree/master/java"
+    ]
+  },
+  "peripheral-gpio-input-kotlin": {
+    "title": "Open GPIO input (Kotlin)",
+    "description": "Open a GPIO pin and configure it as an input",
+    "category": "Peripheral I/O",
+    "samples": [
+      "http://github.com/androidthings/sample-simplepio/tree/master/kotlin"
+    ]
+  },
+  "peripheral-gpio-output-kotlin": {
+    "title": "Open GPIO output (Kotlin)",
+    "description": "Open a GPIO pin and configure it as an output",
+    "category": "Peripheral I/O",
+    "samples": [
+      "http://github.com/androidthings/sample-simplepio/tree/master/kotlin"
+    ]
+  },
+  "peripheral-pwm-kotlin": {
+    "title": "Open PWM (Kotlin)",
+    "description": "Open a PWM pin and configure it",
+    "category": "Peripheral I/O",
+    "samples": [
+      "http://github.com/androidthings/sample-simplepio/tree/master/kotlin"
+    ]
+  }
+}
