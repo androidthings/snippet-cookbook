@@ -1,4 +1,10 @@
 {
+  "auto-start": {
+    "title": "Start automatically after boot",
+    "description": "Start an Activity after boot and re-start whenever the app terminates",
+    "category": "General",
+    "samples": []
+  },
   "peripheral-gpio-input-java": {
     "title": "Open GPIO input (Java)",
     "description": "Open a GPIO pin and configure it as an input",
