@@ -15,4 +15,5 @@
  */
 
 include ':auto-start'
+include ':driver-samples'
 include ':pio'

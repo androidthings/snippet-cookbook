@@ -52,5 +52,53 @@
     "samples": [
       "http://github.com/androidthings/sample-simplepio/tree/master/kotlin"
     ]
+  },
+  "driver-bmx280-java": {
+    "title": "BMX280 Sensor Driver (Java)",
+    "description": "Register a sensor input driver that emits sensor values",
+    "category": "User Drivers",
+    "samples": [
+      "https://github.com/androidthings/drivers-samples/tree/master/bmx280"
+    ]
+  },
+  "driver-bmx280-kotlin": {
+    "title": "BMX280 Sensor Driver (Kotlin)",
+    "description": "Register a sensor input driver that emits sensor values",
+    "category": "User Drivers",
+    "samples": [
+      "https://github.com/androidthings/drivers-samples/tree/master/bmx280"
+    ]
+  },
+  "driver-button-java": {
+    "title": "Button Driver (Java)",
+    "description": "Register a button driver that emits keycodes",
+    "category": "User Drivers",
+    "samples": [
+      "https://github.com/androidthings/sample-button/tree/master/java"
+    ]
+  },
+  "driver-button-kotlin": {
+    "title": "Button Driver (Kotlin)",
+    "description": "Register a button driver that emits keycodes",
+    "category": "User Drivers",
+    "samples": [
+      "https://github.com/androidthings/sample-button/tree/master/kotlin"
+    ]
+  },
+  "driver-ht16k33-java": {
+    "title": "Alphanumeric Display (Java)",
+    "description": "Use an alphanumeric display over I2C",
+    "category": "User Drivers",
+    "samples": [
+      "https://github.com/androidthings/drivers-samples/tree/master/ht16k33"
+    ]
+  },
+  "driver-ht16k33-kotlin": {
+    "title": "Alphanumeric Display (Kotlin)",
+    "description": "Use an alphanumeric display over I2C",
+    "category": "User Drivers",
+    "samples": [
+      "https://github.com/androidthings/drivers-samples/tree/master/ht16k33"
+    ]
   }
 }
